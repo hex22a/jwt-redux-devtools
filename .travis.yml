@@ -1,0 +1,14 @@
+language: node_js
+sudo: false
+cache: yarn
+node_js:
+- '6.1'
+script: yarn build
+deploy:
+  provider: npm
+  email: albert.fazullin@flatstack.com
+  api_key:
+    secure: SGt9Xz973mAayJ7MTgAySveWfCDKPQWLVPx2JeazWfyt1FLTqO8YjSmzLlkIdN7uXy8Wg/novnWEioaG89Mn+imjETSmctDvvIAzKnyAjyCgMVL8jmOQBEg/tyFzAoynfkv2TLolZMAC7gHWD4WcCne8Ce/guNoyMAUYxis/L+qbmFYsX5cM739SJRG2Ft9uPXX/nyWpZ0IsHB2l/fyLUTDuSssfYIwPcfttg5eupOtYu04eLeQ52B/XIByjVoCvi07bv/bPvWTPqZBETPbqwwU8kQ5Cr53ujf69q0TSqF7K0x76u2juHVr4f+JORpGhMC0sjOJWHOabpB0KJlTH5XPvNRCJKokkV+mwwtDCBVYKQ84MuSSNybNy+TiFHK7k94Ncb5aweUSeeJhoP1HotglUfKhxGiSpsn4UMpCw9oKuf/qPuopP5tpiNdqmY+kNT+5sQOYuvZ1Q2fgHsqPVr5dsP86QHuaOs+4RoJJuG1i2RbSCas9egaW4GeOlDRlQfu87gaGEh3LktnA9xWAPN/LVWV3vo8BSN0W+EcfVQOEsanBnJjSITBgRfHkdaAImu9mtPBOV3GzB+U00Sc2Z5Nc0dleloR2zbMXJiNhFB2a/SYd6BZCI5Uz8u2jTs08JDacS1FbREYM4TDfdGnZE0+vs1FD1Kui0roAGbP3Dn+o=
+  on:
+    tags: true
+    repo: AlbertFazullin/fs-jwt-redux-devtools
