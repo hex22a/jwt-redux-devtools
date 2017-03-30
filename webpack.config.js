@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const path = require('path');
 
 const sourcePath = path.join(__dirname, './src');
-const staticsPath = path.join(__dirname, './lib');
+const staticsPath = path.join(__dirname, './dist');
 const nodeEnv = process.env.NODE_ENV || 'development';
 const isProd = nodeEnv === 'production';
 
