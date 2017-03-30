@@ -2,7 +2,7 @@
   "name": "fs-jwt-redux-devtools",
   "version": "1.0.0",
   "description": "Redux middleware to develop JWT-based apps Edit",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "git@github.com:AlbertFazullin/fs-jwt-redux-devtools.git",
   "author": "Albert Fazullin <albert.fazullin@flatstack.com>",
   "license": "MIT",
