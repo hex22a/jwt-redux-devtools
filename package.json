@@ -1,6 +1,6 @@
 {
   "name": "jwt-redux-devtools",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Redux middleware to develop JWT-based apps",
   "main": "./dist/index.js",
   "repository": "git@github.com:hex22a/jwt-redux-devtools.git",
