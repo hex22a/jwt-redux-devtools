@@ -3,12 +3,12 @@ sudo: false
 cache: yarn
 node_js:
 - '6.1'
-script: yarn build
+script: yarn test && yarn build
 deploy:
   provider: npm
-  email: albert.fazullin@flatstack.com
+  email: hex22a@gmail.com
   api_key:
-    secure: SGt9Xz973mAayJ7MTgAySveWfCDKPQWLVPx2JeazWfyt1FLTqO8YjSmzLlkIdN7uXy8Wg/novnWEioaG89Mn+imjETSmctDvvIAzKnyAjyCgMVL8jmOQBEg/tyFzAoynfkv2TLolZMAC7gHWD4WcCne8Ce/guNoyMAUYxis/L+qbmFYsX5cM739SJRG2Ft9uPXX/nyWpZ0IsHB2l/fyLUTDuSssfYIwPcfttg5eupOtYu04eLeQ52B/XIByjVoCvi07bv/bPvWTPqZBETPbqwwU8kQ5Cr53ujf69q0TSqF7K0x76u2juHVr4f+JORpGhMC0sjOJWHOabpB0KJlTH5XPvNRCJKokkV+mwwtDCBVYKQ84MuSSNybNy+TiFHK7k94Ncb5aweUSeeJhoP1HotglUfKhxGiSpsn4UMpCw9oKuf/qPuopP5tpiNdqmY+kNT+5sQOYuvZ1Q2fgHsqPVr5dsP86QHuaOs+4RoJJuG1i2RbSCas9egaW4GeOlDRlQfu87gaGEh3LktnA9xWAPN/LVWV3vo8BSN0W+EcfVQOEsanBnJjSITBgRfHkdaAImu9mtPBOV3GzB+U00Sc2Z5Nc0dleloR2zbMXJiNhFB2a/SYd6BZCI5Uz8u2jTs08JDacS1FbREYM4TDfdGnZE0+vs1FD1Kui0roAGbP3Dn+o=
+    secure: YQHM52J8T48ZHQ+Q5iq0Xi/veL3bx5i3Fe1sfhKgiv0YjHzxPmXL3gxQReLg6ZJMzyP9GlpnWoeaa03Jv5uP0gI+Obn/6Qba8YAmlvdme8S4evmyWJfA2sTVnduqIUtV7Krk05uqZ15X1NQad08YuAY6Fpj+fP9ZzQSOxEL41WHuHZg8NzfQDkGgQoearIA+OpxOg4kCll7zMecn4H6fljjn+bHAStW1PCPJC05MU9cPJhj1d1mHwlzkLbLUdZRrmblfgrIkZNt6H/dADK0nJgW3a9fm9n/nXFsGE1Z9atDP+4w4CTF29fiR7VNAlrV92ikg9OYE1AMEQo1UHgrg1k7XLBDlVMAZ9dV1EmbL9056Niois2TEdKVPpX6mnyGbKQXHT1IFGqfbXiPXtoAIGEg3S29zwiFsffnsslUrCVr3WnhQwTcNdbenCIXuWbF9mNxsa41ko5f2Qwu0cULMH+i/7EeK89d/mbExluu50RQTTIeiDWfDrsayJRlURpd3GdP7NDf8nbfXC8dTzlho25bpiJgw1ZUIq5lWINqpUBjdzrR+qKnbWjqQFg/YYkL7uQiNJmK1pzSBBTtblzxQvCmY8R+6+4ac0Mbwasj++dPYPkKJdYrkej+RTQ6ZgvkWeDg/edn49sSYY4w3lcF2jCO5Gvhwvy6catby6P2SaN4=
   on:
     tags: true
-    repo: AlbertFazullin/fs-jwt-redux-devtools
+    repo: hex22a/jwt-redux-devtools
