@@ -24,7 +24,8 @@
   },
   "files": [
     "LICENSE",
-    "dist/"
+    "dist/",
+    "README.md"
   ],
   "devDependencies": {
     "babel-core": "^6.24.0",
