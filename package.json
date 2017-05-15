@@ -22,11 +22,6 @@
     "test": "NODE_ENV=test jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "test:watch": "yarn test -- --watch"
   },
-  "files": [
-    "LICENSE",
-    "dist/",
-    "README.md"
-  ],
   "devDependencies": {
     "babel-core": "^6.24.0",
     "babel-eslint": "^7.2.1",

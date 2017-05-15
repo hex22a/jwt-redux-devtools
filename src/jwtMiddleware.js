@@ -4,7 +4,7 @@ import Auth from './Auth';
 const saveToken = tokenEvents => ({ dispatch }) => next => (action) => {
   if (tokenEvents.indexOf(action.type) > -1) {
     const { payload } = action;
-    const authDecodedPayload = Auth.getPayload(payload.token.auth_token);
+    const authDecodedPayload = Auth.getPayload(payload.token.accessToken);
     payload.decoded = authDecodedPayload;
     dispatch(save(payload));
   }
